@@ -1,7 +1,5 @@
 /* Google font style */
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap')
-</style>
+
 /* Asterisk wildcard selector to override default styles added by the browser */
 
 * {
@@ -23,13 +21,17 @@ body {
     flex-direction: column;
     /* Generic project styles */
     color: #3a3a3a;
-    font-family: 'lato', sans-serif;
+    font-family: 'Lato', sans-serif;
 
 }
 
 /* Header */
 header {
     background-color: aqua;
+}
+h1 {
+    font-family: 'Whisper', sans-serif ;
+    
 }
 
 /* Main Content */
