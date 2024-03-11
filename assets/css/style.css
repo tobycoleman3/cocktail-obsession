@@ -131,7 +131,20 @@ hr {
     padding: 5%;
     color: #3a3a3a;
 }
-
+#circle-cover-bg {
+    background: url('../images/pexels-christian-fridell-3417441.jpg') no-repeat top center/cover;
+    margin-bottom: 20px;
+    height: 90vw;
+    width: 90vw;
+    border-radius: 50%;
+    max-width: 420px;
+    max-height: 420px;
+}
+#cocktail-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 /* Media Query: tablets and lerger (768px and more) */
