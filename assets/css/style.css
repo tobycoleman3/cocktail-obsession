@@ -17,6 +17,12 @@ body {
     font-family: 'Lato', sans-serif;
 
 }
+h1 {
+    font-family: 'Whisper', sans-serif ;
+   letter-spacing: 2px;
+    color: #252525;
+    
+}
 
 /* Header */
 header {
@@ -34,13 +40,7 @@ header a {
     text-decoration: none;
     color: inherit;
 }
-h1 {
-    font-family: 'Whisper', sans-serif ;
-   
-    letter-spacing: 2px;
-    color: #252525;
-    
-}
+
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
@@ -85,10 +85,17 @@ main {
     margin-top: 46px;
 }
 /* Hero section */
-}
-video {
+.video-banner {
+    position: relative;
     width: 100%;
 }
+.cover-text {
+    position: absolute;
+    background-color: rgba(245, 245, 220, .6);
+    top: 70px;
+    
+}
+
 
 /* Footer */
 #social-networks {
@@ -136,12 +143,27 @@ video {
     main{
         margin-top: 80px;
     }
+    /* Hero */
+    .cover-text {
+        width: 380px;
+        font-size: 200%;
+        right: 60px;
+        top: 140px;
+        
+    }
 }
 
 /* Media Query: laptops and higher (992px and more) */
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
+    }
+    /* Hero */
+    .cover-text {
+        width: 50%;
+        font-size: 300%;
+        right: 60px;
+        
     }
 }
 
