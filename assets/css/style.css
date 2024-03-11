@@ -80,10 +80,14 @@ nav {
 
 /* Main Content */
 main {
-    background-color: beige;
     /* Make main elememt take up any suplas space to push footer down */
     flex: 1 0 auto;
     margin-top: 46px;
+}
+/* Hero section */
+}
+video {
+    width: 100%;
 }
 
 /* Footer */
