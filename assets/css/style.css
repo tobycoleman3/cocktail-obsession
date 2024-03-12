@@ -145,12 +145,13 @@ hr {
 #dropdown {
     display: flex;
     justify-content: space-evenly;
+
 }
 .recipebtn {
     background-color: #252525;
     color: white;
-    padding: 20px;
-    font-size: 15px;
+    padding: 10px;
+    font-size: 8px;
     border: none;
 }
 .dropdown-content {
@@ -291,7 +292,7 @@ img {
     /* Recipe Section */
     img {
         width: 400px;
-        height: 460px;
+        height: 550px;
     }
     .recipebtn {
         font-size: xx-large;
