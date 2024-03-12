@@ -230,8 +230,11 @@ hr {
         
     }
 }
-/* Reasons Section */
-
+/* Recipe Section */
+img {
+    width: 120px;
+    height: 150px;
+}
 
 /* Media Query: laptops and higher (992px and more) */
 @media screen and (min-width: 992px) {
@@ -246,6 +249,13 @@ hr {
         
     }
     /* Recipe Section */
+    
+    img {
+        width: 150px;
+        height: 180px;
+    }
+   
+    
 }
 
 @media screen and (min-width: 1200px) {
@@ -277,6 +287,17 @@ hr {
     #benefits-section-two {
         align-self: flex-end;
         
+    }
+    /* Recipe Section */
+    img {
+        width: 400px;
+        height: 460px;
+    }
+    .recipebtn {
+        font-size: xx-large;
+    }
+    #dropdown {
+        font-size: large;
     }
 }
 
