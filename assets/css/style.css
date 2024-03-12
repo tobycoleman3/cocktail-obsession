@@ -131,34 +131,47 @@ hr {
     align-items: center;
     justify-content: center;
 }
-#recipes {
+/* Recipes Section */
+
+#recipe-section {
+    background-color: beige;
+    width: 90%;
+    margin: 20px auto;
+}
+#recipes-image {
     display: flex;
+    justify-content: space-evenly;
 }
 #dropdown {
     display: flex;
+    justify-content: space-evenly;
 }
 .recipebtn {
     background-color: #252525;
     color: white;
     padding: 20px;
-    font-size: 20px;
+    font-size: 15px;
     border: none;
 }
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: #3a3a3a;
-    min-width: 160px;
+    min-width: 50px;
     z-index: 1;
     border: 2px solid #252525;
 }
 .dropdown-content li {
     color: #ffffff;
-    padding: 12px 16px;
+    padding: 6px 8px;
     text-decoration: none;
     display: block;
   }
   .dropdown:hover .dropdown-content {display: block;}
+
+  #cocktail-dd {
+    text-decoration: underline;
+  }
 
 
 
