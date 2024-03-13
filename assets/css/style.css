@@ -233,6 +233,7 @@ hr {
         line-height: 75px;
         margin: 0 0.5rem;
     }
+    
 
     /* Main Content */
     main{
@@ -253,7 +254,7 @@ img {
     height: 150px;
 }
 /* Gallery */
-
+/* Column-count: 3 here breaks column count for all pages??? */
 
 /* Media Query: laptops and higher (992px and more) */
 @media screen and (min-width: 992px) {
@@ -275,7 +276,7 @@ img {
     }
    /* Gallery */
    #photos {
-    column-count: 4;
+    column-count: 3;
     
 }
     
@@ -325,6 +326,7 @@ img {
     /* Gallery */
     #photos {
         column-count: 4;
+        
 }
 
 }
