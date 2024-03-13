@@ -182,6 +182,7 @@ hr {
 }
 #photos {
     line-height: 0;
+    column-count: 1;
 }
 
 
@@ -198,7 +199,13 @@ hr {
     padding: 5%;
     color: #3a3a3a;
 }
-
+/* Media Query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px){
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
 
 
 /* Media Query: tablets and lerger (768px and more) */
@@ -245,6 +252,8 @@ img {
     width: 120px;
     height: 150px;
 }
+/* Gallery */
+
 
 /* Media Query: laptops and higher (992px and more) */
 @media screen and (min-width: 992px) {
@@ -264,7 +273,11 @@ img {
         width: 150px;
         height: 180px;
     }
-   
+   /* Gallery */
+   #photos {
+    column-count: 4;
+    
+}
     
 }
 
@@ -309,6 +322,9 @@ img {
     #dropdown {
         font-size: large;
     }
+    /* Gallery */
+    #photos {
+        column-count: 4;
 }
 
-
+}
