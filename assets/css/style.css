@@ -304,11 +304,12 @@ img {
     position: relative;
 }
 #signup-form {
-    max-width: 400px;
+    max-width: 450px;
     position: absolute;
     left: 10%;
     top: 50px;
 }
+
 .text-input:hover {
     border-color: #f16c6b;
 }
@@ -341,6 +342,12 @@ img {
    #photos {
     column-count: 3;
     
+}
+/* Sign Up Page */
+.radio-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
 }
     
 }
