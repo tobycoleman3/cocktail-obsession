@@ -174,7 +174,15 @@ hr {
   #cocktail-dd {
     text-decoration: underline;
   }
-
+/* Gallery */
+#photos img {
+    width: 100%;
+    line-height: 1em;
+    height: 100%;
+}
+#photos {
+    line-height: 0;
+}
 
 
 /* Footer */
