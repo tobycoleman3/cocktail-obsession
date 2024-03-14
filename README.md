@@ -16,6 +16,6 @@ People who use the website will be able to find information on recipes and cours
   - The heading is clear and spaced out to make navigating around the website easy and accessible.
 
 
-![header](https://github.com/tobycoleman3/cocktail-obsession/blob/main/cocktail-obsession.header.paint)
+[cocktail-obsession.header.zip](https://github.com/tobycoleman3/cocktail-obsession/files/14602477/cocktail-obsession.header.zip)
 
 
