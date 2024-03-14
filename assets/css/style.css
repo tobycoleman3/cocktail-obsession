@@ -89,7 +89,9 @@ main {
 /* Hero section */
 .video-banner {
     position: relative;
-    
+}
+video {
+    width: 100%;
 }
 .cover-text {
     position: absolute;
