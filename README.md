@@ -10,8 +10,8 @@ People who use the website will be able to find information on recipes and cours
 
 - Navigation
 
-- Sub At the top of the page on the left the heading of the website: Cocktail Obsession links to the top of the page and back to the home page from any other pages.
-- Sub At the top of the page on the right is the remaining links to other pages: Gallery and Sign UP, which will take you to different pages respectively.
-- Sub The heading is in a detailed in an elequant art-type font to associate with cocktail making.
-- Sub The heading is clear and spaced out to make navigating around the website easy and accessible.
+  - At the top of the page on the left the heading of the website: Cocktail Obsession links to the top of the page and back to the home page from any other pages.
+  - At the top of the page on the right is the remaining links to other pages: Gallery and Sign UP, which will take you to different pages respectively.
+  - The heading is in a detailed in an elequant art-type font to associate with cocktail making.
+  - The heading is clear and spaced out to make navigating around the website easy and accessible.
 
