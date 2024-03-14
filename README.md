@@ -8,7 +8,7 @@ People who use the website will be able to find information on recipes and cours
 
 # Features
 
-* Navigation
+## Navigation
 
 - At the top of the page on the left the heading of the website: Cocktail Obsession links to the top of the page and back to the home page from any other pages.
 - At the top of the page on the right is the remaining links to other pages: Gallery and Sign UP, which will take you to different pages respectively.
