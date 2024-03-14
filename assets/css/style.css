@@ -146,6 +146,11 @@ hr {
 #recipes-image {
     display: flex;
     justify-content: space-evenly;
+    
+}
+img {
+    width: 100px;
+    height: 130px;
 }
 #dropdown {
     display: flex;
