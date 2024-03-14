@@ -183,9 +183,16 @@ img {
   }
   .dropdown:hover .dropdown-content {display: block;}
 
-  #cocktail-dd {
+  #espresso-dd {
     text-decoration: underline;
   }
+  #margarita-dd {
+    text-decoration: underline;
+  }
+  #negroni-dd {
+    text-decoration: underline;
+  }
+
 /* Gallery */
 #photos img {
     width: 100%;
