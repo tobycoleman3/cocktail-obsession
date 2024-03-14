@@ -15,3 +15,5 @@ People who use the website will be able to find information on recipes and cours
   - The heading is in a detailed in an elequant art-type font to associate with cocktail making.
   - The heading is clear and spaced out to make navigating around the website easy and accessible.
 
+
+
