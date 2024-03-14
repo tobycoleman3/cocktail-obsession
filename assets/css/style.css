@@ -86,6 +86,9 @@ main {
     display: flex;
     flex-direction: column;
 }
+.hidden-heading {
+    display: none;
+}
 /* Hero section */
 .video-banner {
     position: relative;
