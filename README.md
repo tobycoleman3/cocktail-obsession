@@ -1,39 +1,69 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Cocktail Obsession
 
-Welcome,
+The Cocktail Obsession website is a chance for adults to gain knowledge, wether it is high to no experience, in making and preparing drinks for any occasion.
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+People who use the website will be able to find information on recipes and course details, including cocktail masterclasses and specific type alcohol training - spirits, wine and beer. Weekly emails will be sent out including: recipe of the week, bar equipment guides, glassware and much more. This site is targeted for anyone who is interested in the drinks industry, if youre just a home bartender or staff working those busy friday and saturday nights, we target all audiences to take you to the next level.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+![image](https://github.com/tobycoleman3/cocktail-obsession/assets/160591772/d6f993fc-53f4-4a54-b3a5-a3ed7e35e46d)
 
-## Codeanywhere Reminders
+# Features
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+- Navigation
 
-`python3 -m http.server`
+  - At the top of the page on the left the heading of the website: Cocktail Obsession links to the top of the page and back to the home page from any other pages.
+  - At the top of the page on the right is the remaining links to other pages: Gallery and Sign UP, which will take you to different pages respectively.
+  - The heading is clear and spaced out to make navigating around the website easy and accessible.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+![cocktail-obsession-header](https://github.com/tobycoleman3/cocktail-obsession/assets/160591772/dfc1ccbb-da7a-48c8-ae1a-2ae5734c056e)
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+- The Header
 
-`http_server`
+  - The heading is in a detailed in an elequant art-type font to associate with cocktail making.
+  - The header has a video of a cocktail being poured to indicate what the objective of the website is.
+  - The section has a graceful quote that presesnts users what the aim is.
+ 
+![cocktail-obsession-section](https://github.com/tobycoleman3/cocktail-obsession/assets/160591772/7dd87da5-2eac-444e-be84-3026c61e3047)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- Where to start section
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+  - This section gives details on what we offer the members who sign up.
+  - This shows benefits and an inside of what users will and can achieve.
+  - The section is laid out to be easily read and on a beige background to match with the rest of the site with an inticing picture to attract users.
+  
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+![cocktail-obsession-wheretostart](https://github.com/tobycoleman3/cocktail-obsession/assets/160591772/517b0d53-18d9-4824-906f-165a7545adc3)
 
-To log into the Heroku toolbelt CLI:
+- Recipe Section
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+  - This section shows a few cocktails with hoverable dropdowns to display the recipe.
+  - This section gives the users a chance to try the services before signing up.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+![cocktail-obsession-recipesection](https://github.com/tobycoleman3/cocktail-obsession/assets/160591772/a3fcef86-7e51-4961-b7c8-8b0a20b0d4de)
 
----
+- The Gallery
 
-Happy coding!
+  - This page shows the user examples of what can be achieved with courses being offered.
+  - This page shows clear and well detailed. glamerous cocktails to encourage sign up.
+
+![cocktail-obsession-gallery](https://github.com/tobycoleman3/cocktail-obsession/assets/160591772/7bb6079f-67a6-4ada-a7cf-c643f2ab1617)
+
+- Sign Up Page
+
+  - The sign up page has a form to collect details so they can sign up.
+  - The form collects: first name, last name, email address and prefernce of what their interest is for targeted emails; cocktail masterclasses, weekly recipe's or both.
+  - The sign up page is valuable to the user as it allows them to join and gain services.
+
+![cocktail-obsession-signup](https://github.com/tobycoleman3/cocktail-obsession/assets/160591772/5f708935-2228-4249-84c9-c6b31db2c9f6)
+
+- The Footer
+
+  - The footer provides links to the websites social media.
+  - The links allow users to see more that the website has to offer with more pictures and examples.
+
+![cocktail-obsession-footer](https://github.com/tobycoleman3/cocktail-obsession/assets/160591772/38c1f2a3-c791-4812-a3c2-5108f32c7e37)
+
+# Testing
+
+- I tested that the website works in different browsers: Chrome, Safari
+- I tested that the website is responsize, has a good look and is easy readable on all devices using the devtools device.
+- I have confirmed that the navigation, home page and sign up page are easily readable.
