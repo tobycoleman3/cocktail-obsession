@@ -23,3 +23,43 @@ People who use the website will be able to find information on recipes and cours
   - The section has a graceful quote that presesnts users what the aim is.
  
 ![cocktail-obsession-section](https://github.com/tobycoleman3/cocktail-obsession/assets/160591772/7dd87da5-2eac-444e-be84-3026c61e3047)
+
+- Where to start section
+
+  - This section gives details on what we offer the members who sign up.
+  - This shows benefits and an inside of what users will and can achieve.
+  - The section is laid out to be easily read and on a beige background to match with the rest of the site with an inticing picture to attract users.
+  
+
+![cocktail-obsession-wheretostart](https://github.com/tobycoleman3/cocktail-obsession/assets/160591772/517b0d53-18d9-4824-906f-165a7545adc3)
+
+- Recipe Section
+
+  - This section shows a few cocktails with hoverable dropdowns to display the recipe.
+  - This section gives the users a chance to try the services before signing up.
+
+![cocktail-obsession-recipesection](https://github.com/tobycoleman3/cocktail-obsession/assets/160591772/a3fcef86-7e51-4961-b7c8-8b0a20b0d4de)
+
+- The Gallery
+
+  - This page shows the user examples of what can be achieved with courses being offered.
+  - This page shows clear and well detailed. glamerous cocktails to encourage sign up.
+
+![cocktail-obsession-gallery](https://github.com/tobycoleman3/cocktail-obsession/assets/160591772/7bb6079f-67a6-4ada-a7cf-c643f2ab1617)
+
+- Sign Up Page
+
+  - The sign up page has a form to collect details so they can sign up.
+  - The form collects: first name, last name, email address and prefernce of what their interest is for targeted emails; cocktail masterclasses, weekly recipe's or both.
+  - The sign up page is valuable to the user as it allows them to join and gain services.
+
+![cocktail-obsession-signup](https://github.com/tobycoleman3/cocktail-obsession/assets/160591772/5f708935-2228-4249-84c9-c6b31db2c9f6)
+
+- The Footer
+
+  - The footer provides links to the websites social media.
+  - The links allow users to see more that the website has to offer with more pictures and examples.
+
+![cocktail-obsession-footer](https://github.com/tobycoleman3/cocktail-obsession/assets/160591772/38c1f2a3-c791-4812-a3c2-5108f32c7e37)
+
+# Testing
