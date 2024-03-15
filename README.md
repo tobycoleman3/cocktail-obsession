@@ -67,3 +67,44 @@ People who use the website will be able to find information on recipes and cours
 - I tested that the website works in different browsers: Chrome, Safari
 - I tested that the website is responsize, has a good look and is easy readable on all devices using the devtools device.
 - I have confirmed that the navigation, home page and sign up page are easily readable.
+- I have tested the form page works: requires entries in all fields and requires email in email field and submit button works
+
+## Bugs
+
+- Once validating i discovered some errors and warnings such as this
+![error-image-1](assets/images/error-1.jpg)
+- removing the space and replacing it with %20 fixed this
+- Some sections were missing heading's so i added where needed and hid them using a hidden heading class in css
+- Tge recipe section images had the height and width in the index file, moving this to the css fixed the issue.
+
+## Validator Testing
+
+- HTML
+  - No errors returned when passing through the official W3C validator.
+-CSS
+  -No errors returned when passing through the official W3C CSS validator.
+
+  ![lighthouse-score](assets/images/cocktail-obsession-lighthouse.jpg)
+
+  ## Unfixed Bugs
+
+  - There are no unfixed bugs.
+
+  # Deployment
+
+  - The site was deployed to GitHub pages. The steps to deploy are as followed:
+    - In the GitHub repository, navigate to the settings tab.
+    - From the source section drop-down menu, select the Master Branch.
+    - Once the Master Branch has been selected, the page provided the link to the completed website.
+  
+  The link to the website is as followed: [Cocktail Obsession](https://tobycoleman3.github.io/cocktail-obsession/)
+
+  # Credits
+
+  ## Content 
+
+  - The code to make the social links were taken from the CI [Love Running](https://github.com/Code-Institute-Org/love-running-2.0) project
+  
+  ## Media 
+
+  - The images and video on the main page, gallery and sign up page were taken from [Pexels](https://www.pexels.com/)
