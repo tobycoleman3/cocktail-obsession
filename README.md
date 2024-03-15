@@ -63,3 +63,8 @@ People who use the website will be able to find information on recipes and cours
 ![cocktail-obsession-footer](https://github.com/tobycoleman3/cocktail-obsession/assets/160591772/38c1f2a3-c791-4812-a3c2-5108f32c7e37)
 
 # Testing
+
+- I tested that the website works in different browsers: Chrome, Safari
+- I tested that the website is responsize, has a good look and is easy readable on all devices using the devtools device.
+- I have confirmed that the navigation, home page and sign up page are easily readable.
+- 
