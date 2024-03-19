@@ -1,29 +1,24 @@
-
+ 
 /* Asterisk wildcard selector to override default styles added by the browser */
-
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-
 /* General styles */
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /* Generic project styles */
+   /* Generic project styles */
     color: #3a3a3a;
     font-family: 'Lato', sans-serif;
-
 }
 h1 {
     font-family: 'Whisper', sans-serif ;
-   letter-spacing: 2px;
+    letter-spacing: 2px;
     color: #252525;
-    
 }
-
 /* Header */
 header {
     background-color: #ffffff;
@@ -40,12 +35,10 @@ header a {
     text-decoration: none;
     color: inherit;
 }
-
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
     list-style-type: none;
-
 }
 #menu > li {
     margin-bottom: 1em;
@@ -53,7 +46,6 @@ header a {
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
-
 /* Navbar styles with toggle dropdown */
 nav {
     position: absolute;
@@ -65,7 +57,6 @@ nav {
     display: none;
     top: 100%;
 }
-
 /* Nav Toggle */
 #nav-toggle:checked~nav {
     display: block;
@@ -76,11 +67,9 @@ nav {
 .nav-toggle-label {
     font-size: 1rem;
 }
-
-
 /* Main Content */
 main {
-    /* Make main elememt take up any suplas space to push footer down */
+   /* Make main elememt take up any suplas space to push footer down */
     flex: 1 0 auto;
     margin-top: 46px;
     display: flex;
@@ -100,14 +89,12 @@ video {
     position: absolute;
     background-color: rgba(245, 245, 220, .6);
     top: 70px;
-    
 }
 #reasons {
     background-color: beige;
     width: 90%;
-    margin: 20px auto; 
+    margin: 20px auto;
 }
-
 #reasons h2 {
     margin-bottom: 20px;
     text-align: center;
@@ -138,7 +125,6 @@ hr {
     align-items: center;
     justify-content: center;
 }
-
 /* Video */
 .video {
     display: block;
@@ -147,20 +133,15 @@ hr {
     width: 50%;
 }
 /* Recipes Section */
-
 #recipe-section {
     background-color: beige;
     width: 90%;
     margin: 20px auto;
 }
-
 #recipes-image {
     display: flex;
     justify-content: space-around;
-    
 }
-
-
 /* Image Overlay */
 .container {
     position: relative;
@@ -193,9 +174,6 @@ hr {
 ul {
     list-style-type: none;
 }
-
-
-
 /* Gallery */
 #photos img {
     width: 100%;
@@ -214,7 +192,6 @@ ul {
     padding: 40px 10% 0 10%;
     flex-grow: 1;
 }
-
 #signup-form {
     color: #ffffff;
     background-color: rgba(60, 60, 60, .6);
@@ -247,7 +224,6 @@ ul {
     color: #3a3a3a;
     font-size: 100%;
 }
-
 /* Footer */
 #social-networks {
     text-align: center;
@@ -266,154 +242,121 @@ ul {
     #photos {
         column-count: 2;
         column-gap: 0;
-    }
-
-.image {
-    height: 280px;
+   }
+    .image {
+        height: 280px;
+   }
+    .overlay {
+        font-size: 18px;
+   }
 }
-.overlay {
-    font-size: 18px;
-    
-}
-}
-
-
 /* Media Query: tablets and lerger (768px and more) */
-
-@media  screen and (min-width: 768px) {
-    /* Header */
+@media screen and (min-width: 768px) {
+   /* Header */
     nav{
         display: block;
         position: relative;
         box-shadow: none;
         width: fit-content;
         padding-right: 1rem;
-    }
+   }
     #menu {
         display: flex;
-    }
+   }
     #menu > li {
         padding-left: 1rem;
-    }
+   }
     .nav-toggle-label {
         display: none;
-    }
+   }
     #logo {
         font-size: 280%;
         line-height: 75px;
         margin: 0 0.5rem;
-    }
-    
-
-    /* Main Content */
+   }
+   /* Main Content */
     main{
         margin-top: 80px;
-    }
-    /* Hero */
+   }
+   /* Hero */
     .cover-text {
         width: 380px;
         font-size: 200%;
         right: 60px;
         top: 140px;
-        
-    }
-
-/* Recipe Section */
-/* Gallery */
-/* Column-count: 3 here breaks column count for all pages??? */
-/* Sign up Page */
-#signup {
-    background-position: center;
-    position: relative;
+   }
+   /* Sign up Page */
+    #signup {
+        background-position: center;
+        position: relative;
+   }
+    #signup-form {
+        max-width: 400px;
+        position: absolute;
+        left: 10%;
+        top: 50px;
+   }
+    .text-input:hover {
+        border-color: #f16c6b;
+   }
+    .join-button:hover {
+        background-color: #fafafa;
+        color: #f16c6b;
+   }
 }
-#signup-form {
-    max-width: 400px;
-    position: absolute;
-    left: 10%;
-    top: 50px;
-}
-
-.text-input:hover {
-    border-color: #f16c6b;
-}
-.join-button:hover {
-    background-color: #fafafa;
-    color: #f16c6b;
-}
-}
-
-
 /* Media Query: laptops and higher (992px and more) */
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
-    }
-    /* Hero */
+   }
+   /* Hero */
     .cover-text {
         width: 50%;
         font-size: 300%;
         right: 60px;
-        
-    }
-    /* Recipe Section */
-    
-   
+   }
    /* Gallery */
-   #photos {
-    column-count: 3;
-    
+    #photos {
+        column-count: 3;
+   }
+   /* Image Overlay */
+    .image {
+        height: 350px;
+   }
+    .overlay {
+        padding-top: 20%;
+   }
 }
-/* Image Overlay */
-
-.image {
-    height: 350px;
-}
-.overlay {
-    padding-top: 20%;
-    
-}
-
-
-
-    
-}
-
 @media screen and (min-width: 1200px) {
-    /* Reasons section */
+   /* Reasons section */
     #benefits-training {
         display: flex;
         flex-direction: row;
         font-size: xx-large;
         letter-spacing: 2px;
         line-height: 6pt;
-    }
+   }
     #benefits-training > div {
         flex: 1;
         line-height: 100%;
-    }
+   }
     #cocktail-image {
         flex: 0;
-    }
+   }
     #benefits-section-one {
         order: 1;
         line-height: 6pt;
-        
-    }
+   }
     #benefits-section-one > div {
         align-self: flex-start;
         line-height: 100%;
-        
-    }
+   }
     #benefits-section-two {
         align-self: flex-end;
-        
-    }
-    /* Recipe Section */
-    
-    /* Gallery */
+   }
+   /* Gallery */
     #photos {
         column-count: 4;
-        
+   }
 }
 
-}
