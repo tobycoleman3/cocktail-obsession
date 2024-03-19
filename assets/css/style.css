@@ -148,7 +148,7 @@ hr {
 
 #recipes-image {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     
 }
 
@@ -160,7 +160,8 @@ hr {
     max-width: 300px;
 }
 .image {
-    display: block;
+    display: flex;
+    justify-content: space-evenly;
     width: 90%;
     height: 130px;
 }
@@ -170,27 +171,22 @@ hr {
     background: rgba(0, 0, 0, 0.5);
     color: #f1f1f1;
     width: 90%;
+    height: 100%;
     transition: .5s ease;
     opacity: 0;
     color: white;
-    font-size: 10px;
-    padding: 18px;
+    font-size: 9px;
+    padding: 18%;
     text-align: center;
 }
 .container:hover .overlay {
     opacity: 1;
 }
-.em {
-    list-style-type: none;
-}
-.m {
-    list-style-type: none;
-}
-.n {
+ul {
     list-style-type: none;
 }
 
-
+/* DELETE */
 
 #dropdown {
     display: flex;
@@ -301,6 +297,14 @@ hr {
         column-count: 2;
         column-gap: 0;
     }
+
+.image {
+    height: 280px;
+}
+.overlay {
+    font-size: 18px;
+    
+}
 }
 
 
@@ -397,7 +401,15 @@ img {
     column-count: 3;
     
 }
-/* Sign Up Page */
+/* Image Overlay */
+
+.image {
+    height: 350px;
+}
+.overlay {
+    padding-top: 20%;
+    
+}
 
 
 
