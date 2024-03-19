@@ -175,7 +175,7 @@ hr {
     transition: .5s ease;
     opacity: 0;
     color: white;
-    font-size: 9px;
+    font-size: 60%;
     padding: 18%;
     text-align: center;
 }
@@ -185,8 +185,6 @@ hr {
 ul {
     list-style-type: none;
 }
-
-/* DELETE */
 
 
 
