@@ -38,7 +38,7 @@ People who use the website will be able to find information on recipes and cours
   - This section shows a few cocktails with hoverable dropdowns to display the recipe.
   - This section gives the users a chance to try the services before signing up.
 
-![cocktail-obsession-recipesection](https://github.com/tobycoleman3/cocktail-obsession/assets/160591772/a3fcef86-7e51-4961-b7c8-8b0a20b0d4de)
+![recipe-section](assets/images/cocktail-obsession-recipen.jpg)
 
 - The Gallery
 
@@ -81,10 +81,11 @@ People who use the website will be able to find information on recipes and cours
 
 - HTML
   - No errors returned when passing through the official W3C validator.
+
 -CSS
   -No errors returned when passing through the official W3C CSS validator.
 
-  ![lighthouse-score](assets/images/cocktail-obsession-lighthouse.jpg)
+  ![lighthouse-score](assets/images/cocktail-obsession-lighthouse2.jpg)
 
   ## Unfixed Bugs
 
