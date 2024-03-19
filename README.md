@@ -82,8 +82,8 @@ People who use the website will be able to find information on recipes and cours
 - HTML
   - No errors returned when passing through the official W3C validator.
 
--CSS
-  -No errors returned when passing through the official W3C CSS validator.
+- CSS
+  - No errors returned when passing through the official W3C CSS validator.
 
   ![lighthouse-score](assets/images/cocktail-obsession-lighthouse2.jpg)
 
