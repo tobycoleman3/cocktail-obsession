@@ -188,43 +188,7 @@ ul {
 
 /* DELETE */
 
-#dropdown {
-    display: flex;
-    justify-content: space-evenly;
 
-}
-.recipebtn {
-    background-color: #252525;
-    color: white;
-    padding: 10px;
-    font-size: 8px;
-    border: none;
-}
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #3a3a3a;
-    min-width: 50px;
-    z-index: 1;
-    border: 2px solid #252525;
-}
-.dropdown-content li {
-    color: #ffffff;
-    padding: 6px 8px;
-    text-decoration: none;
-    display: block;
-  }
-  .dropdown:hover .dropdown-content {display: block;}
-
-  #espresso-dd {
-    text-decoration: underline;
-  }
-  #margarita-dd {
-    text-decoration: underline;
-  }
-  #negroni-dd {
-    text-decoration: underline;
-  }
 
 /* Gallery */
 #photos img {
@@ -349,11 +313,6 @@ ul {
     }
 
 /* Recipe Section */
-img {
-    width: 120px;
-    height: 150px;
-}
-
 /* Gallery */
 /* Column-count: 3 here breaks column count for all pages??? */
 /* Sign up Page */
@@ -392,10 +351,7 @@ img {
     }
     /* Recipe Section */
     
-    img {
-        width: 150px;
-        height: 180px;
-    }
+   
    /* Gallery */
    #photos {
     column-count: 3;
@@ -447,16 +403,7 @@ img {
         
     }
     /* Recipe Section */
-    img {
-        width: 400px;
-        height: 550px;
-    }
-    .recipebtn {
-        font-size: xx-large;
-    }
-    #dropdown {
-        font-size: large;
-    }
+    
     /* Gallery */
     #photos {
         column-count: 4;
